@@ -126,7 +126,7 @@ locals {
 # OCP Cluster with ODF
 ##############################################################################
 
-module "ocp-cluster" {
+module "ocp_cluster" {
   source = "../.."
   # remove the above line and uncomment the below 2 lines to consume the module from the registry
   # source            = "terraform-ibm-modules/base-ocp-vpc/ibm"
